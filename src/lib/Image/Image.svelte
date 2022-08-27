@@ -59,6 +59,7 @@
 	});
 	$: addImage = imageAddStrategy($state);
 	$: showImage = imageShowStrategy($state);
+	$: console.log(addImage)
 </script>
 
 <div
